@@ -1,0 +1,13 @@
+{
+  "name": "Convene - Smart Event Booking",
+  "short_name": "Convene",
+  "description": "Browse events, watch seats fill in real time, and book tickets fast.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#121638",
+  "theme_color": "#121638",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
