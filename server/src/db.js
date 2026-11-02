@@ -10,6 +10,7 @@ const pool = mysql.createPool({
   connectionLimit: 10,
   decimalNumbers: true, // return DECIMAL columns as numbers
   timezone: 'Z',        // read/write all DATETIMEs as UTC
+  ssl: process.env.DB_SSL === 'true' ? { rejectUnauthorized: false } : undefined,
 });
 
 module.exports = pool;
